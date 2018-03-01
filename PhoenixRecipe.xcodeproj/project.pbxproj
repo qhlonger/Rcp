@@ -1,0 +1,1068 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EFFC32EFEE71F6CCEFE6069 /* libPods-PhoenixRecipe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEC02B2AD42D38AD17BDC00 /* libPods-PhoenixRecipe.a */; };
+		1843A6FB1FC92E49009AE1EE /* ReceipeBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843A6FA1FC92E49009AE1EE /* ReceipeBottomBar.m */; };
+		1846EF421FD584CB000BEAE8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846EF401FD584CA000BEAE8 /* Reachability.m */; };
+		1846EF451FD6599B000BEAE8 /* FeedbackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846EF441FD6599B000BEAE8 /* FeedbackVC.m */; };
+		1846EF481FD6D457000BEAE8 /* NSString+QTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1846EF471FD6D456000BEAE8 /* NSString+QTool.m */; };
+		1850B0791FD042070053CC55 /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850B0771FD042070053CC55 /* UIColor+Expanded.m */; };
+		1850B07C1FD11AD50053CC55 /* Recipemanager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850B07B1FD11AD50053CC55 /* Recipemanager.m */; };
+		1850B07F1FD128E00053CC55 /* HomeHorScrollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850B07E1FD128E00053CC55 /* HomeHorScrollCell.m */; };
+		1850B0821FD1298E0053CC55 /* HomeColCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1850B0811FD1298E0053CC55 /* HomeColCell.m */; };
+		1863268E202832E7003B3BDE /* RecpieListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1863268D202832E7003B3BDE /* RecpieListVC.m */; };
+		187AC5901FD2670F00D5A072 /* AboutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AC58F1FD2670F00D5A072 /* AboutVC.m */; };
+		187AC5931FD279C300D5A072 /* RecipeListTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AC5921FD279C300D5A072 /* RecipeListTabCell.m */; };
+		187AC5961FD2D11F00D5A072 /* CoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AC5951FD2D11F00D5A072 /* CoverView.m */; };
+		188357FD1FC9483F00BE9E9D /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 188357FC1FC9483E00BE9E9D /* DataBase.m */; };
+		188358031FC9675100BE9E9D /* CollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 188358021FC9675100BE9E9D /* CollectionVC.m */; };
+		188358061FC9676100BE9E9D /* LearnedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 188358051FC9676100BE9E9D /* LearnedVC.m */; };
+		1883D5762022D20000173533 /* AdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1883D5752022D20000173533 /* AdView.m */; };
+		1883D5792022E1A400173533 /* Img9View.m in Sources */ = {isa = PBXBuildFile; fileRef = 1883D5782022E1A400173533 /* Img9View.m */; };
+		1883D57C2022E3BB00173533 /* Img9RecommendColCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1883D57B2022E3BB00173533 /* Img9RecommendColCell.m */; };
+		1883D57F2022F0E700173533 /* RecommendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1883D57E2022F0E700173533 /* RecommendModel.m */; };
+		3D4605391FC7D0D000B0C9A3 /* RecipeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4605381FC7D0D000B0C9A3 /* RecipeCategory.m */; };
+		3D46053C1FC7D7CB00B0C9A3 /* RecipeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D46053B1FC7D7CB00B0C9A3 /* RecipeVC.m */; };
+		3D46053F1FC7D88B00B0C9A3 /* RecipeListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D46053E1FC7D88B00B0C9A3 /* RecipeListVC.m */; };
+		3D4605421FC7D99D00B0C9A3 /* RecipeListColCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4605411FC7D99D00B0C9A3 /* RecipeListColCell.m */; };
+		3D4605451FC7EBDF00B0C9A3 /* RecipeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4605441FC7EBDF00B0C9A3 /* RecipeModel.m */; };
+		3D4605481FC7F30800B0C9A3 /* CategoryListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4605471FC7F30800B0C9A3 /* CategoryListVC.m */; };
+		3D46054B1FC8072700B0C9A3 /* RecipeListColHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D46054A1FC8072700B0C9A3 /* RecipeListColHeaderCell.m */; };
+		3D4605511FC815FE00B0C9A3 /* RecipeProcessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4605501FC815FE00B0C9A3 /* RecipeProcessCell.m */; };
+		3D4605541FC8221C00B0C9A3 /* RecipeMaterialCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4605531FC8221C00B0C9A3 /* RecipeMaterialCell.m */; };
+		3D4605571FC8445900B0C9A3 /* NSString+QTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4605551FC8445900B0C9A3 /* NSString+QTool.m */; };
+		3D46055D1FC85BD500B0C9A3 /* RecipeHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D46055C1FC85BD500B0C9A3 /* RecipeHeaderCell.m */; };
+		3D6288881FC6AED100AACCCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6288871FC6AED100AACCCA /* AppDelegate.m */; };
+		3D62888B1FC6AED100AACCCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D62888A1FC6AED100AACCCA /* ViewController.m */; };
+		3D62888E1FC6AED100AACCCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D62888C1FC6AED100AACCCA /* Main.storyboard */; };
+		3D6288901FC6AED100AACCCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D62888F1FC6AED100AACCCA /* Assets.xcassets */; };
+		3D6288931FC6AED100AACCCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D6288911FC6AED100AACCCA /* LaunchScreen.storyboard */; };
+		3D6288961FC6AED100AACCCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6288951FC6AED100AACCCA /* main.m */; };
+		3D6288A01FC6AED100AACCCA /* PhoenixRecipeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D62889F1FC6AED100AACCCA /* PhoenixRecipeTests.m */; };
+		3D6288AB1FC6AED100AACCCA /* PhoenixRecipeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6288AA1FC6AED100AACCCA /* PhoenixRecipeUITests.m */; };
+		3D6288BA1FC6B00200AACCCA /* TabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6288B91FC6B00200AACCCA /* TabBarVC.m */; };
+		3D6288BD1FC6B01500AACCCA /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6288BC1FC6B01500AACCCA /* BaseVC.m */; };
+		3D6288C01FC6B02300AACCCA /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6288BF1FC6B02300AACCCA /* HomeVC.m */; };
+		3D6288C31FC6B02D00AACCCA /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6288C21FC6B02D00AACCCA /* MineVC.m */; };
+		3D6288C61FC6B03900AACCCA /* AllVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6288C51FC6B03900AACCCA /* AllVC.m */; };
+		3D6288C91FC6B08900AACCCA /* BaseNaviVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6288C81FC6B08900AACCCA /* BaseNaviVC.m */; };
+		3D6288CC1FC6B4A100AACCCA /* MineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6288CB1FC6B4A100AACCCA /* MineCell.m */; };
+		3D6288D61FC6B8D100AACCCA /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6288D51FC6B8D100AACCCA /* UIImage+Extension.m */; };
+		3D6288D91FC6B99100AACCCA /* AllColCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6288D81FC6B99100AACCCA /* AllColCell.m */; };
+		3D6288DC1FC6B9A400AACCCA /* AllTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6288DB1FC6B9A400AACCCA /* AllTableCell.m */; };
+		3D6288DF1FC6BA1500AACCCA /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6288DD1FC6BA1500AACCCA /* Util.m */; };
+		3D6288E21FC6BC1D00AACCCA /* AllSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6288E11FC6BC1D00AACCCA /* AllSectionHeader.m */; };
+		3D6288E51FC6C32400AACCCA /* HttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6288E41FC6C32400AACCCA /* HttpManager.m */; };
+		3D6288EE1FC6E74C00AACCCA /* RecipeDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6288ED1FC6E74C00AACCCA /* RecipeDetailVC.m */; };
+		3D6288F11FC6E9BD00AACCCA /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6288F01FC6E9BD00AACCCA /* HomeCell.m */; };
+		3D6288F41FC6EB4D00AACCCA /* QMRightItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6288F31FC6EB4D00AACCCA /* QMRightItem.m */; };
+		3D6288F61FC6F19400AACCCA /* all.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D6288F51FC6F19400AACCCA /* all.json */; };
+		3D6288F91FC7039C00AACCCA /* RecommedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6288F81FC7039C00AACCCA /* RecommedCell.m */; };
+		3D6288FC1FC703C500AACCCA /* RecommendColCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6288FB1FC703C500AACCCA /* RecommendColCell.m */; };
+		3D6288FF1FC707A500AACCCA /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D6288FE1FC707A500AACCCA /* UIView+Extension.m */; };
+		A7A50E1FE9C5A1B62DA3DE42 /* libPods-PhoenixRecipeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87808A242519CF1E0EFBB129 /* libPods-PhoenixRecipeTests.a */; };
+		C2A772D80D71180A5BCA5C2C /* libPods-PhoenixRecipeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D65376AB615C697FCE1A520 /* libPods-PhoenixRecipeUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D62889C1FC6AED100AACCCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D62887B1FC6AED100AACCCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D6288821FC6AED100AACCCA;
+			remoteInfo = PhoenixRecipe;
+		};
+		3D6288A71FC6AED100AACCCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D62887B1FC6AED100AACCCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D6288821FC6AED100AACCCA;
+			remoteInfo = PhoenixRecipe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1843A6F91FC92E49009AE1EE /* ReceipeBottomBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReceipeBottomBar.h; sourceTree = "<group>"; };
+		1843A6FA1FC92E49009AE1EE /* ReceipeBottomBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReceipeBottomBar.m; sourceTree = "<group>"; };
+		1846EF401FD584CA000BEAE8 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		1846EF411FD584CB000BEAE8 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		1846EF431FD6599B000BEAE8 /* FeedbackVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedbackVC.h; sourceTree = "<group>"; };
+		1846EF441FD6599B000BEAE8 /* FeedbackVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedbackVC.m; sourceTree = "<group>"; };
+		1846EF461FD6D456000BEAE8 /* NSString+QTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+QTool.h"; path = "../../RT-master/ArdezRailTransit/ArdezRailTransit/Class/Utility/Extension/NSString+QTool.h"; sourceTree = "<group>"; };
+		1846EF471FD6D456000BEAE8 /* NSString+QTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+QTool.m"; path = "../../RT-master/ArdezRailTransit/ArdezRailTransit/Class/Utility/Extension/NSString+QTool.m"; sourceTree = "<group>"; };
+		1850B0771FD042070053CC55 /* UIColor+Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Expanded.m"; sourceTree = "<group>"; };
+		1850B0781FD042070053CC55 /* UIColor+Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Expanded.h"; sourceTree = "<group>"; };
+		1850B07A1FD11AD50053CC55 /* Recipemanager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Recipemanager.h; sourceTree = "<group>"; };
+		1850B07B1FD11AD50053CC55 /* Recipemanager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipemanager.m; sourceTree = "<group>"; };
+		1850B07D1FD128E00053CC55 /* HomeHorScrollCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeHorScrollCell.h; sourceTree = "<group>"; };
+		1850B07E1FD128E00053CC55 /* HomeHorScrollCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeHorScrollCell.m; sourceTree = "<group>"; };
+		1850B0801FD1298E0053CC55 /* HomeColCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeColCell.h; sourceTree = "<group>"; };
+		1850B0811FD1298E0053CC55 /* HomeColCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeColCell.m; sourceTree = "<group>"; };
+		1863268C202832E7003B3BDE /* RecpieListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecpieListVC.h; sourceTree = "<group>"; };
+		1863268D202832E7003B3BDE /* RecpieListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecpieListVC.m; sourceTree = "<group>"; };
+		187AC58E1FD2670F00D5A072 /* AboutVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutVC.h; sourceTree = "<group>"; };
+		187AC58F1FD2670F00D5A072 /* AboutVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutVC.m; sourceTree = "<group>"; };
+		187AC5911FD279C300D5A072 /* RecipeListTabCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeListTabCell.h; sourceTree = "<group>"; };
+		187AC5921FD279C300D5A072 /* RecipeListTabCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeListTabCell.m; sourceTree = "<group>"; };
+		187AC5941FD2D11F00D5A072 /* CoverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoverView.h; sourceTree = "<group>"; };
+		187AC5951FD2D11F00D5A072 /* CoverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoverView.m; sourceTree = "<group>"; };
+		188357FB1FC9483E00BE9E9D /* DataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
+		188357FC1FC9483E00BE9E9D /* DataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
+		188358011FC9675100BE9E9D /* CollectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionVC.h; sourceTree = "<group>"; };
+		188358021FC9675100BE9E9D /* CollectionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionVC.m; sourceTree = "<group>"; };
+		188358041FC9676100BE9E9D /* LearnedVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearnedVC.h; sourceTree = "<group>"; };
+		188358051FC9676100BE9E9D /* LearnedVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnedVC.m; sourceTree = "<group>"; };
+		1883D5742022D20000173533 /* AdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdView.h; sourceTree = "<group>"; };
+		1883D5752022D20000173533 /* AdView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdView.m; sourceTree = "<group>"; };
+		1883D5772022E1A400173533 /* Img9View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Img9View.h; sourceTree = "<group>"; };
+		1883D5782022E1A400173533 /* Img9View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Img9View.m; sourceTree = "<group>"; };
+		1883D57A2022E3BB00173533 /* Img9RecommendColCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Img9RecommendColCell.h; sourceTree = "<group>"; };
+		1883D57B2022E3BB00173533 /* Img9RecommendColCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Img9RecommendColCell.m; sourceTree = "<group>"; };
+		1883D57D2022F0E700173533 /* RecommendModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecommendModel.h; sourceTree = "<group>"; };
+		1883D57E2022F0E700173533 /* RecommendModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommendModel.m; sourceTree = "<group>"; };
+		202BD802B8F43C799FF9C309 /* Pods-PhoenixRecipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoenixRecipe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhoenixRecipe/Pods-PhoenixRecipe.debug.xcconfig"; sourceTree = "<group>"; };
+		34867C68BC713BC4C60419B2 /* Pods-PhoenixRecipeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoenixRecipeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhoenixRecipeTests/Pods-PhoenixRecipeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D4605371FC7D0D000B0C9A3 /* RecipeCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeCategory.h; sourceTree = "<group>"; };
+		3D4605381FC7D0D000B0C9A3 /* RecipeCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeCategory.m; sourceTree = "<group>"; };
+		3D46053A1FC7D7CB00B0C9A3 /* RecipeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeVC.h; sourceTree = "<group>"; };
+		3D46053B1FC7D7CB00B0C9A3 /* RecipeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeVC.m; sourceTree = "<group>"; };
+		3D46053D1FC7D88B00B0C9A3 /* RecipeListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeListVC.h; sourceTree = "<group>"; };
+		3D46053E1FC7D88B00B0C9A3 /* RecipeListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeListVC.m; sourceTree = "<group>"; };
+		3D4605401FC7D99D00B0C9A3 /* RecipeListColCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeListColCell.h; sourceTree = "<group>"; };
+		3D4605411FC7D99D00B0C9A3 /* RecipeListColCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeListColCell.m; sourceTree = "<group>"; };
+		3D4605431FC7EBDF00B0C9A3 /* RecipeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeModel.h; sourceTree = "<group>"; };
+		3D4605441FC7EBDF00B0C9A3 /* RecipeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeModel.m; sourceTree = "<group>"; };
+		3D4605461FC7F30800B0C9A3 /* CategoryListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryListVC.h; sourceTree = "<group>"; };
+		3D4605471FC7F30800B0C9A3 /* CategoryListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryListVC.m; sourceTree = "<group>"; };
+		3D4605491FC8072700B0C9A3 /* RecipeListColHeaderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeListColHeaderCell.h; sourceTree = "<group>"; };
+		3D46054A1FC8072700B0C9A3 /* RecipeListColHeaderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeListColHeaderCell.m; sourceTree = "<group>"; };
+		3D46054F1FC815FE00B0C9A3 /* RecipeProcessCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeProcessCell.h; sourceTree = "<group>"; };
+		3D4605501FC815FE00B0C9A3 /* RecipeProcessCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeProcessCell.m; sourceTree = "<group>"; };
+		3D4605521FC8221C00B0C9A3 /* RecipeMaterialCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeMaterialCell.h; sourceTree = "<group>"; };
+		3D4605531FC8221C00B0C9A3 /* RecipeMaterialCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeMaterialCell.m; sourceTree = "<group>"; };
+		3D4605551FC8445900B0C9A3 /* NSString+QTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+QTool.m"; sourceTree = "<group>"; };
+		3D4605561FC8445900B0C9A3 /* NSString+QTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+QTool.h"; sourceTree = "<group>"; };
+		3D46055B1FC85BD500B0C9A3 /* RecipeHeaderCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeHeaderCell.h; sourceTree = "<group>"; };
+		3D46055C1FC85BD500B0C9A3 /* RecipeHeaderCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeHeaderCell.m; sourceTree = "<group>"; };
+		3D6288831FC6AED100AACCCA /* PhoenixRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoenixRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D6288861FC6AED100AACCCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D6288871FC6AED100AACCCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D6288891FC6AED100AACCCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D62888A1FC6AED100AACCCA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D62888D1FC6AED100AACCCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D62888F1FC6AED100AACCCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D6288921FC6AED100AACCCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D6288941FC6AED100AACCCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6288951FC6AED100AACCCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D62889B1FC6AED100AACCCA /* PhoenixRecipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoenixRecipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D62889F1FC6AED100AACCCA /* PhoenixRecipeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoenixRecipeTests.m; sourceTree = "<group>"; };
+		3D6288A11FC6AED100AACCCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6288A61FC6AED100AACCCA /* PhoenixRecipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoenixRecipeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D6288AA1FC6AED100AACCCA /* PhoenixRecipeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoenixRecipeUITests.m; sourceTree = "<group>"; };
+		3D6288AC1FC6AED100AACCCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6288B81FC6B00200AACCCA /* TabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarVC.h; sourceTree = "<group>"; };
+		3D6288B91FC6B00200AACCCA /* TabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarVC.m; sourceTree = "<group>"; };
+		3D6288BB1FC6B01500AACCCA /* BaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		3D6288BC1FC6B01500AACCCA /* BaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		3D6288BE1FC6B02300AACCCA /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		3D6288BF1FC6B02300AACCCA /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		3D6288C11FC6B02D00AACCCA /* MineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
+		3D6288C21FC6B02D00AACCCA /* MineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
+		3D6288C41FC6B03900AACCCA /* AllVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllVC.h; sourceTree = "<group>"; };
+		3D6288C51FC6B03900AACCCA /* AllVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllVC.m; sourceTree = "<group>"; };
+		3D6288C71FC6B08900AACCCA /* BaseNaviVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNaviVC.h; sourceTree = "<group>"; };
+		3D6288C81FC6B08900AACCCA /* BaseNaviVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNaviVC.m; sourceTree = "<group>"; };
+		3D6288CA1FC6B4A100AACCCA /* MineCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineCell.h; sourceTree = "<group>"; };
+		3D6288CB1FC6B4A100AACCCA /* MineCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineCell.m; sourceTree = "<group>"; };
+		3D6288D31FC6B7F600AACCCA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3D6288D41FC6B8D100AACCCA /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		3D6288D51FC6B8D100AACCCA /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		3D6288D71FC6B99100AACCCA /* AllColCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllColCell.h; sourceTree = "<group>"; };
+		3D6288D81FC6B99100AACCCA /* AllColCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllColCell.m; sourceTree = "<group>"; };
+		3D6288DA1FC6B9A400AACCCA /* AllTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllTableCell.h; sourceTree = "<group>"; };
+		3D6288DB1FC6B9A400AACCCA /* AllTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllTableCell.m; sourceTree = "<group>"; };
+		3D6288DD1FC6BA1500AACCCA /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		3D6288DE1FC6BA1500AACCCA /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		3D6288E01FC6BC1D00AACCCA /* AllSectionHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllSectionHeader.h; sourceTree = "<group>"; };
+		3D6288E11FC6BC1D00AACCCA /* AllSectionHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllSectionHeader.m; sourceTree = "<group>"; };
+		3D6288E31FC6C32400AACCCA /* HttpManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpManager.h; sourceTree = "<group>"; };
+		3D6288E41FC6C32400AACCCA /* HttpManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpManager.m; sourceTree = "<group>"; };
+		3D6288EC1FC6E74C00AACCCA /* RecipeDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeDetailVC.h; sourceTree = "<group>"; };
+		3D6288ED1FC6E74C00AACCCA /* RecipeDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailVC.m; sourceTree = "<group>"; };
+		3D6288EF1FC6E9BD00AACCCA /* HomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		3D6288F01FC6E9BD00AACCCA /* HomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		3D6288F21FC6EB4C00AACCCA /* QMRightItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMRightItem.h; sourceTree = "<group>"; };
+		3D6288F31FC6EB4D00AACCCA /* QMRightItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMRightItem.m; sourceTree = "<group>"; };
+		3D6288F51FC6F19400AACCCA /* all.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = all.json; sourceTree = "<group>"; };
+		3D6288F71FC7039C00AACCCA /* RecommedCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecommedCell.h; sourceTree = "<group>"; };
+		3D6288F81FC7039C00AACCCA /* RecommedCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommedCell.m; sourceTree = "<group>"; };
+		3D6288FA1FC703C500AACCCA /* RecommendColCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecommendColCell.h; sourceTree = "<group>"; };
+		3D6288FB1FC703C500AACCCA /* RecommendColCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommendColCell.m; sourceTree = "<group>"; };
+		3D6288FD1FC707A500AACCCA /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		3D6288FE1FC707A500AACCCA /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		3D65376AB615C697FCE1A520 /* libPods-PhoenixRecipeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhoenixRecipeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DEC02B2AD42D38AD17BDC00 /* libPods-PhoenixRecipe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhoenixRecipe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40F8BE21E04F67EF0DFD8EA4 /* Pods-PhoenixRecipeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoenixRecipeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhoenixRecipeUITests/Pods-PhoenixRecipeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6CCFF4377F4AABF517F5F3AD /* Pods-PhoenixRecipeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoenixRecipeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhoenixRecipeTests/Pods-PhoenixRecipeTests.release.xcconfig"; sourceTree = "<group>"; };
+		87808A242519CF1E0EFBB129 /* libPods-PhoenixRecipeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhoenixRecipeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09A9F1414B4BEA21E21B00B /* Pods-PhoenixRecipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoenixRecipe.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhoenixRecipe/Pods-PhoenixRecipe.release.xcconfig"; sourceTree = "<group>"; };
+		F4013A5BDD6935BC4023AE8D /* Pods-PhoenixRecipeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoenixRecipeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhoenixRecipeUITests/Pods-PhoenixRecipeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D6288801FC6AED100AACCCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EFFC32EFEE71F6CCEFE6069 /* libPods-PhoenixRecipe.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6288981FC6AED100AACCCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A50E1FE9C5A1B62DA3DE42 /* libPods-PhoenixRecipeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6288A31FC6AED100AACCCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A772D80D71180A5BCA5C2C /* libPods-PhoenixRecipeUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D62887A1FC6AED100AACCCA = {
+			isa = PBXGroup;
+			children = (
+				3D6288851FC6AED100AACCCA /* PhoenixRecipe */,
+				3D62889E1FC6AED100AACCCA /* PhoenixRecipeTests */,
+				3D6288A91FC6AED100AACCCA /* PhoenixRecipeUITests */,
+				3D6288841FC6AED100AACCCA /* Products */,
+				8B2EFCF057ADB5B2384DC8E3 /* Pods */,
+				5C49BE18FE0E8C240354516F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D6288841FC6AED100AACCCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D6288831FC6AED100AACCCA /* PhoenixRecipe.app */,
+				3D62889B1FC6AED100AACCCA /* PhoenixRecipeTests.xctest */,
+				3D6288A61FC6AED100AACCCA /* PhoenixRecipeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D6288851FC6AED100AACCCA /* PhoenixRecipe */ = {
+			isa = PBXGroup;
+			children = (
+				188357FB1FC9483E00BE9E9D /* DataBase.h */,
+				188357FC1FC9483E00BE9E9D /* DataBase.m */,
+				3D6288DE1FC6BA1500AACCCA /* Util.h */,
+				3D6288DD1FC6BA1500AACCCA /* Util.m */,
+				187AC5941FD2D11F00D5A072 /* CoverView.h */,
+				187AC5951FD2D11F00D5A072 /* CoverView.m */,
+				1850B07A1FD11AD50053CC55 /* Recipemanager.h */,
+				1850B07B1FD11AD50053CC55 /* Recipemanager.m */,
+				3D6288861FC6AED100AACCCA /* AppDelegate.h */,
+				3D6288871FC6AED100AACCCA /* AppDelegate.m */,
+				3D6288891FC6AED100AACCCA /* ViewController.h */,
+				3D62888A1FC6AED100AACCCA /* ViewController.m */,
+				1846EF411FD584CB000BEAE8 /* Reachability.h */,
+				1846EF401FD584CA000BEAE8 /* Reachability.m */,
+				1863268C202832E7003B3BDE /* RecpieListVC.h */,
+				1863268D202832E7003B3BDE /* RecpieListVC.m */,
+				3D6288B81FC6B00200AACCCA /* TabBarVC.h */,
+				3D6288B91FC6B00200AACCCA /* TabBarVC.m */,
+				1846EF431FD6599B000BEAE8 /* FeedbackVC.h */,
+				1846EF441FD6599B000BEAE8 /* FeedbackVC.m */,
+				3D6288BB1FC6B01500AACCCA /* BaseVC.h */,
+				3D6288BC1FC6B01500AACCCA /* BaseVC.m */,
+				3D6288C71FC6B08900AACCCA /* BaseNaviVC.h */,
+				3D6288C81FC6B08900AACCCA /* BaseNaviVC.m */,
+				3D6288BE1FC6B02300AACCCA /* HomeVC.h */,
+				3D6288BF1FC6B02300AACCCA /* HomeVC.m */,
+				3D6288C11FC6B02D00AACCCA /* MineVC.h */,
+				3D6288C21FC6B02D00AACCCA /* MineVC.m */,
+				1850B07D1FD128E00053CC55 /* HomeHorScrollCell.h */,
+				1850B07E1FD128E00053CC55 /* HomeHorScrollCell.m */,
+				1850B0801FD1298E0053CC55 /* HomeColCell.h */,
+				1850B0811FD1298E0053CC55 /* HomeColCell.m */,
+				188358011FC9675100BE9E9D /* CollectionVC.h */,
+				188358021FC9675100BE9E9D /* CollectionVC.m */,
+				187AC5911FD279C300D5A072 /* RecipeListTabCell.h */,
+				187AC5921FD279C300D5A072 /* RecipeListTabCell.m */,
+				188358041FC9676100BE9E9D /* LearnedVC.h */,
+				188358051FC9676100BE9E9D /* LearnedVC.m */,
+				1843A6F91FC92E49009AE1EE /* ReceipeBottomBar.h */,
+				1843A6FA1FC92E49009AE1EE /* ReceipeBottomBar.m */,
+				1846EF461FD6D456000BEAE8 /* NSString+QTool.h */,
+				1846EF471FD6D456000BEAE8 /* NSString+QTool.m */,
+				1850B0781FD042070053CC55 /* UIColor+Expanded.h */,
+				1850B0771FD042070053CC55 /* UIColor+Expanded.m */,
+				3D6288C41FC6B03900AACCCA /* AllVC.h */,
+				3D6288C51FC6B03900AACCCA /* AllVC.m */,
+				3D4605431FC7EBDF00B0C9A3 /* RecipeModel.h */,
+				3D4605441FC7EBDF00B0C9A3 /* RecipeModel.m */,
+				1883D57D2022F0E700173533 /* RecommendModel.h */,
+				1883D57E2022F0E700173533 /* RecommendModel.m */,
+				3D46053A1FC7D7CB00B0C9A3 /* RecipeVC.h */,
+				3D46053B1FC7D7CB00B0C9A3 /* RecipeVC.m */,
+				3D4605521FC8221C00B0C9A3 /* RecipeMaterialCell.h */,
+				3D4605531FC8221C00B0C9A3 /* RecipeMaterialCell.m */,
+				3D46055B1FC85BD500B0C9A3 /* RecipeHeaderCell.h */,
+				3D46055C1FC85BD500B0C9A3 /* RecipeHeaderCell.m */,
+				3D46054F1FC815FE00B0C9A3 /* RecipeProcessCell.h */,
+				3D4605501FC815FE00B0C9A3 /* RecipeProcessCell.m */,
+				3D46053D1FC7D88B00B0C9A3 /* RecipeListVC.h */,
+				3D46053E1FC7D88B00B0C9A3 /* RecipeListVC.m */,
+				187AC58E1FD2670F00D5A072 /* AboutVC.h */,
+				187AC58F1FD2670F00D5A072 /* AboutVC.m */,
+				3D4605461FC7F30800B0C9A3 /* CategoryListVC.h */,
+				3D4605471FC7F30800B0C9A3 /* CategoryListVC.m */,
+				3D4605401FC7D99D00B0C9A3 /* RecipeListColCell.h */,
+				3D4605411FC7D99D00B0C9A3 /* RecipeListColCell.m */,
+				3D4605491FC8072700B0C9A3 /* RecipeListColHeaderCell.h */,
+				3D46054A1FC8072700B0C9A3 /* RecipeListColHeaderCell.m */,
+				3D6288EF1FC6E9BD00AACCCA /* HomeCell.h */,
+				3D6288F01FC6E9BD00AACCCA /* HomeCell.m */,
+				3D6288F71FC7039C00AACCCA /* RecommedCell.h */,
+				3D6288F81FC7039C00AACCCA /* RecommedCell.m */,
+				3D6288FA1FC703C500AACCCA /* RecommendColCell.h */,
+				3D6288FB1FC703C500AACCCA /* RecommendColCell.m */,
+				1883D57A2022E3BB00173533 /* Img9RecommendColCell.h */,
+				1883D57B2022E3BB00173533 /* Img9RecommendColCell.m */,
+				3D6288EC1FC6E74C00AACCCA /* RecipeDetailVC.h */,
+				3D6288ED1FC6E74C00AACCCA /* RecipeDetailVC.m */,
+				3D6288CA1FC6B4A100AACCCA /* MineCell.h */,
+				3D6288CB1FC6B4A100AACCCA /* MineCell.m */,
+				3D4605561FC8445900B0C9A3 /* NSString+QTool.h */,
+				3D4605551FC8445900B0C9A3 /* NSString+QTool.m */,
+				3D6288F51FC6F19400AACCCA /* all.json */,
+				3D6288F21FC6EB4C00AACCCA /* QMRightItem.h */,
+				3D6288F31FC6EB4D00AACCCA /* QMRightItem.m */,
+				3D6288D71FC6B99100AACCCA /* AllColCell.h */,
+				3D6288D81FC6B99100AACCCA /* AllColCell.m */,
+				3D6288DA1FC6B9A400AACCCA /* AllTableCell.h */,
+				3D6288DB1FC6B9A400AACCCA /* AllTableCell.m */,
+				3D6288E01FC6BC1D00AACCCA /* AllSectionHeader.h */,
+				3D6288E11FC6BC1D00AACCCA /* AllSectionHeader.m */,
+				3D6288E31FC6C32400AACCCA /* HttpManager.h */,
+				3D6288E41FC6C32400AACCCA /* HttpManager.m */,
+				3D6288D41FC6B8D100AACCCA /* UIImage+Extension.h */,
+				3D6288D51FC6B8D100AACCCA /* UIImage+Extension.m */,
+				3D6288FD1FC707A500AACCCA /* UIView+Extension.h */,
+				3D6288FE1FC707A500AACCCA /* UIView+Extension.m */,
+				3D4605371FC7D0D000B0C9A3 /* RecipeCategory.h */,
+				3D4605381FC7D0D000B0C9A3 /* RecipeCategory.m */,
+				3D6288D31FC6B7F600AACCCA /* PrefixHeader.pch */,
+				1883D5742022D20000173533 /* AdView.h */,
+				1883D5752022D20000173533 /* AdView.m */,
+				1883D5772022E1A400173533 /* Img9View.h */,
+				1883D5782022E1A400173533 /* Img9View.m */,
+				3D62888C1FC6AED100AACCCA /* Main.storyboard */,
+				3D62888F1FC6AED100AACCCA /* Assets.xcassets */,
+				3D6288911FC6AED100AACCCA /* LaunchScreen.storyboard */,
+				3D6288941FC6AED100AACCCA /* Info.plist */,
+				3D6288951FC6AED100AACCCA /* main.m */,
+			);
+			path = PhoenixRecipe;
+			sourceTree = "<group>";
+		};
+		3D62889E1FC6AED100AACCCA /* PhoenixRecipeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D62889F1FC6AED100AACCCA /* PhoenixRecipeTests.m */,
+				3D6288A11FC6AED100AACCCA /* Info.plist */,
+			);
+			path = PhoenixRecipeTests;
+			sourceTree = "<group>";
+		};
+		3D6288A91FC6AED100AACCCA /* PhoenixRecipeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D6288AA1FC6AED100AACCCA /* PhoenixRecipeUITests.m */,
+				3D6288AC1FC6AED100AACCCA /* Info.plist */,
+			);
+			path = PhoenixRecipeUITests;
+			sourceTree = "<group>";
+		};
+		5C49BE18FE0E8C240354516F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DEC02B2AD42D38AD17BDC00 /* libPods-PhoenixRecipe.a */,
+				87808A242519CF1E0EFBB129 /* libPods-PhoenixRecipeTests.a */,
+				3D65376AB615C697FCE1A520 /* libPods-PhoenixRecipeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B2EFCF057ADB5B2384DC8E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				202BD802B8F43C799FF9C309 /* Pods-PhoenixRecipe.debug.xcconfig */,
+				B09A9F1414B4BEA21E21B00B /* Pods-PhoenixRecipe.release.xcconfig */,
+				34867C68BC713BC4C60419B2 /* Pods-PhoenixRecipeTests.debug.xcconfig */,
+				6CCFF4377F4AABF517F5F3AD /* Pods-PhoenixRecipeTests.release.xcconfig */,
+				F4013A5BDD6935BC4023AE8D /* Pods-PhoenixRecipeUITests.debug.xcconfig */,
+				40F8BE21E04F67EF0DFD8EA4 /* Pods-PhoenixRecipeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D6288821FC6AED100AACCCA /* PhoenixRecipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D6288AF1FC6AED100AACCCA /* Build configuration list for PBXNativeTarget "PhoenixRecipe" */;
+			buildPhases = (
+				D4236AD4C515357B494760FC /* [CP] Check Pods Manifest.lock */,
+				3D62887F1FC6AED100AACCCA /* Sources */,
+				3D6288801FC6AED100AACCCA /* Frameworks */,
+				3D6288811FC6AED100AACCCA /* Resources */,
+				C4B4E8FE5FFC8777560C0FD3 /* [CP] Embed Pods Frameworks */,
+				310A6EE9D9087FD0E2815742 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoenixRecipe;
+			productName = PhoenixRecipe;
+			productReference = 3D6288831FC6AED100AACCCA /* PhoenixRecipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D62889A1FC6AED100AACCCA /* PhoenixRecipeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D6288B21FC6AED100AACCCA /* Build configuration list for PBXNativeTarget "PhoenixRecipeTests" */;
+			buildPhases = (
+				804C4E85B6010E86377C6399 /* [CP] Check Pods Manifest.lock */,
+				3D6288971FC6AED100AACCCA /* Sources */,
+				3D6288981FC6AED100AACCCA /* Frameworks */,
+				3D6288991FC6AED100AACCCA /* Resources */,
+				BB5DD0011F4DAB08BA7EFFCC /* [CP] Embed Pods Frameworks */,
+				76EE9480134644A6132FA06C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D62889D1FC6AED100AACCCA /* PBXTargetDependency */,
+			);
+			name = PhoenixRecipeTests;
+			productName = PhoenixRecipeTests;
+			productReference = 3D62889B1FC6AED100AACCCA /* PhoenixRecipeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D6288A51FC6AED100AACCCA /* PhoenixRecipeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D6288B51FC6AED100AACCCA /* Build configuration list for PBXNativeTarget "PhoenixRecipeUITests" */;
+			buildPhases = (
+				87BAC27DD3CB545BA664DB90 /* [CP] Check Pods Manifest.lock */,
+				3D6288A21FC6AED100AACCCA /* Sources */,
+				3D6288A31FC6AED100AACCCA /* Frameworks */,
+				3D6288A41FC6AED100AACCCA /* Resources */,
+				30335EFB9FE34D5EB8809AD2 /* [CP] Embed Pods Frameworks */,
+				5DB438968FC2D3FD4EFCF598 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D6288A81FC6AED100AACCCA /* PBXTargetDependency */,
+			);
+			name = PhoenixRecipeUITests;
+			productName = PhoenixRecipeUITests;
+			productReference = 3D6288A61FC6AED100AACCCA /* PhoenixRecipeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D62887B1FC6AED100AACCCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = mini;
+				TargetAttributes = {
+					3D6288821FC6AED100AACCCA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					3D62889A1FC6AED100AACCCA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D6288821FC6AED100AACCCA;
+					};
+					3D6288A51FC6AED100AACCCA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D6288821FC6AED100AACCCA;
+					};
+				};
+			};
+			buildConfigurationList = 3D62887E1FC6AED100AACCCA /* Build configuration list for PBXProject "PhoenixRecipe" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D62887A1FC6AED100AACCCA;
+			productRefGroup = 3D6288841FC6AED100AACCCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D6288821FC6AED100AACCCA /* PhoenixRecipe */,
+				3D62889A1FC6AED100AACCCA /* PhoenixRecipeTests */,
+				3D6288A51FC6AED100AACCCA /* PhoenixRecipeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D6288811FC6AED100AACCCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6288931FC6AED100AACCCA /* LaunchScreen.storyboard in Resources */,
+				3D6288F61FC6F19400AACCCA /* all.json in Resources */,
+				3D6288901FC6AED100AACCCA /* Assets.xcassets in Resources */,
+				3D62888E1FC6AED100AACCCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6288991FC6AED100AACCCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6288A41FC6AED100AACCCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30335EFB9FE34D5EB8809AD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoenixRecipeUITests/Pods-PhoenixRecipeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		310A6EE9D9087FD0E2815742 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PhoenixRecipe/Pods-PhoenixRecipe-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/FORScrollViewEmptyAssistant/FORScrollViewEmptyAssistant.bundle,
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/WSProgressHUD/WSProgressHUD/WSProgressBundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoenixRecipe/Pods-PhoenixRecipe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DB438968FC2D3FD4EFCF598 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoenixRecipeUITests/Pods-PhoenixRecipeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76EE9480134644A6132FA06C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoenixRecipeTests/Pods-PhoenixRecipeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		804C4E85B6010E86377C6399 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhoenixRecipeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87BAC27DD3CB545BA664DB90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhoenixRecipeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB5DD0011F4DAB08BA7EFFCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoenixRecipeTests/Pods-PhoenixRecipeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4B4E8FE5FFC8777560C0FD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhoenixRecipe/Pods-PhoenixRecipe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4236AD4C515357B494760FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhoenixRecipe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D62887F1FC6AED100AACCCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D62888B1FC6AED100AACCCA /* ViewController.m in Sources */,
+				3D4605421FC7D99D00B0C9A3 /* RecipeListColCell.m in Sources */,
+				3D4605571FC8445900B0C9A3 /* NSString+QTool.m in Sources */,
+				3D6288961FC6AED100AACCCA /* main.m in Sources */,
+				1883D5792022E1A400173533 /* Img9View.m in Sources */,
+				3D46055D1FC85BD500B0C9A3 /* RecipeHeaderCell.m in Sources */,
+				1863268E202832E7003B3BDE /* RecpieListVC.m in Sources */,
+				1850B07C1FD11AD50053CC55 /* Recipemanager.m in Sources */,
+				3D6288FF1FC707A500AACCCA /* UIView+Extension.m in Sources */,
+				3D6288BA1FC6B00200AACCCA /* TabBarVC.m in Sources */,
+				3D6288E51FC6C32400AACCCA /* HttpManager.m in Sources */,
+				1846EF421FD584CB000BEAE8 /* Reachability.m in Sources */,
+				1850B07F1FD128E00053CC55 /* HomeHorScrollCell.m in Sources */,
+				3D6288C01FC6B02300AACCCA /* HomeVC.m in Sources */,
+				1850B0821FD1298E0053CC55 /* HomeColCell.m in Sources */,
+				3D6288C91FC6B08900AACCCA /* BaseNaviVC.m in Sources */,
+				3D6288DF1FC6BA1500AACCCA /* Util.m in Sources */,
+				3D4605481FC7F30800B0C9A3 /* CategoryListVC.m in Sources */,
+				1850B0791FD042070053CC55 /* UIColor+Expanded.m in Sources */,
+				3D6288E21FC6BC1D00AACCCA /* AllSectionHeader.m in Sources */,
+				3D6288C61FC6B03900AACCCA /* AllVC.m in Sources */,
+				1843A6FB1FC92E49009AE1EE /* ReceipeBottomBar.m in Sources */,
+				3D6288F91FC7039C00AACCCA /* RecommedCell.m in Sources */,
+				3D46053F1FC7D88B00B0C9A3 /* RecipeListVC.m in Sources */,
+				3D6288D91FC6B99100AACCCA /* AllColCell.m in Sources */,
+				188358031FC9675100BE9E9D /* CollectionVC.m in Sources */,
+				3D6288FC1FC703C500AACCCA /* RecommendColCell.m in Sources */,
+				187AC5961FD2D11F00D5A072 /* CoverView.m in Sources */,
+				188357FD1FC9483F00BE9E9D /* DataBase.m in Sources */,
+				188358061FC9676100BE9E9D /* LearnedVC.m in Sources */,
+				1846EF481FD6D457000BEAE8 /* NSString+QTool.m in Sources */,
+				3D6288BD1FC6B01500AACCCA /* BaseVC.m in Sources */,
+				3D6288D61FC6B8D100AACCCA /* UIImage+Extension.m in Sources */,
+				3D6288F11FC6E9BD00AACCCA /* HomeCell.m in Sources */,
+				1883D57F2022F0E700173533 /* RecommendModel.m in Sources */,
+				1883D5762022D20000173533 /* AdView.m in Sources */,
+				3D4605391FC7D0D000B0C9A3 /* RecipeCategory.m in Sources */,
+				3D6288F41FC6EB4D00AACCCA /* QMRightItem.m in Sources */,
+				3D4605541FC8221C00B0C9A3 /* RecipeMaterialCell.m in Sources */,
+				1883D57C2022E3BB00173533 /* Img9RecommendColCell.m in Sources */,
+				3D4605451FC7EBDF00B0C9A3 /* RecipeModel.m in Sources */,
+				1846EF451FD6599B000BEAE8 /* FeedbackVC.m in Sources */,
+				3D6288DC1FC6B9A400AACCCA /* AllTableCell.m in Sources */,
+				187AC5901FD2670F00D5A072 /* AboutVC.m in Sources */,
+				3D4605511FC815FE00B0C9A3 /* RecipeProcessCell.m in Sources */,
+				3D6288EE1FC6E74C00AACCCA /* RecipeDetailVC.m in Sources */,
+				3D46054B1FC8072700B0C9A3 /* RecipeListColHeaderCell.m in Sources */,
+				3D6288C31FC6B02D00AACCCA /* MineVC.m in Sources */,
+				3D6288CC1FC6B4A100AACCCA /* MineCell.m in Sources */,
+				187AC5931FD279C300D5A072 /* RecipeListTabCell.m in Sources */,
+				3D46053C1FC7D7CB00B0C9A3 /* RecipeVC.m in Sources */,
+				3D6288881FC6AED100AACCCA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6288971FC6AED100AACCCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6288A01FC6AED100AACCCA /* PhoenixRecipeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D6288A21FC6AED100AACCCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6288AB1FC6AED100AACCCA /* PhoenixRecipeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D62889D1FC6AED100AACCCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D6288821FC6AED100AACCCA /* PhoenixRecipe */;
+			targetProxy = 3D62889C1FC6AED100AACCCA /* PBXContainerItemProxy */;
+		};
+		3D6288A81FC6AED100AACCCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D6288821FC6AED100AACCCA /* PhoenixRecipe */;
+			targetProxy = 3D6288A71FC6AED100AACCCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D62888C1FC6AED100AACCCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D62888D1FC6AED100AACCCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D6288911FC6AED100AACCCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D6288921FC6AED100AACCCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D6288AD1FC6AED100AACCCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D6288AE1FC6AED100AACCCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D6288B01FC6AED100AACCCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 202BD802B8F43C799FF9C309 /* Pods-PhoenixRecipe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55E66M3MJ7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PhoenixRecipe/PrefixHeader.pch";
+				INFOPLIST_FILE = PhoenixRecipe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pk.recipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3D6288B11FC6AED100AACCCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B09A9F1414B4BEA21E21B00B /* Pods-PhoenixRecipe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55E66M3MJ7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PhoenixRecipe/PrefixHeader.pch";
+				INFOPLIST_FILE = PhoenixRecipe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pk.recipe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3D6288B31FC6AED100AACCCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34867C68BC713BC4C60419B2 /* Pods-PhoenixRecipeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GPP854SGSK;
+				INFOPLIST_FILE = PhoenixRecipeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mini.PhoenixRecipeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoenixRecipe.app/PhoenixRecipe";
+			};
+			name = Debug;
+		};
+		3D6288B41FC6AED100AACCCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CCFF4377F4AABF517F5F3AD /* Pods-PhoenixRecipeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GPP854SGSK;
+				INFOPLIST_FILE = PhoenixRecipeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mini.PhoenixRecipeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoenixRecipe.app/PhoenixRecipe";
+			};
+			name = Release;
+		};
+		3D6288B61FC6AED100AACCCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4013A5BDD6935BC4023AE8D /* Pods-PhoenixRecipeUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GPP854SGSK;
+				INFOPLIST_FILE = PhoenixRecipeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mini.PhoenixRecipeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhoenixRecipe;
+			};
+			name = Debug;
+		};
+		3D6288B71FC6AED100AACCCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40F8BE21E04F67EF0DFD8EA4 /* Pods-PhoenixRecipeUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GPP854SGSK;
+				INFOPLIST_FILE = PhoenixRecipeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mini.PhoenixRecipeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhoenixRecipe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D62887E1FC6AED100AACCCA /* Build configuration list for PBXProject "PhoenixRecipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6288AD1FC6AED100AACCCA /* Debug */,
+				3D6288AE1FC6AED100AACCCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D6288AF1FC6AED100AACCCA /* Build configuration list for PBXNativeTarget "PhoenixRecipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6288B01FC6AED100AACCCA /* Debug */,
+				3D6288B11FC6AED100AACCCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D6288B21FC6AED100AACCCA /* Build configuration list for PBXNativeTarget "PhoenixRecipeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6288B31FC6AED100AACCCA /* Debug */,
+				3D6288B41FC6AED100AACCCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D6288B51FC6AED100AACCCA /* Build configuration list for PBXNativeTarget "PhoenixRecipeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6288B61FC6AED100AACCCA /* Debug */,
+				3D6288B71FC6AED100AACCCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D62887B1FC6AED100AACCCA /* Project object */;
+}
